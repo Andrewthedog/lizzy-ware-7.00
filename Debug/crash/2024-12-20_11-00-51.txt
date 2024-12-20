@@ -1,0 +1,37 @@
+Exception Code: 3221225477
+Exception Address: 00007FFAFF87B1EC
+Thread RIP: 00007FFAFF87B1EC
+Module.dll: 00007FFAFF780000
+Rebased Module: 00000000000FB1EC
+RobloxPlayerBeta.exe: 00007FF7DC480000
+Rebased Roblox: 00000003233FB1EC
+
+RAX: 6956751020924646542
+RBX: 1553213145056
+RCX: 1554750046208
+RDX: 1554750046208
+RDI: 133819267998
+RSI: 0
+R08: 1554751100544
+R09: 1
+R10: 3
+R11: 133819267536
+R12: 0
+R13: 0
+R14: 0
+R15: 0
+RBP: 133819268000
+RSP: 133819267744
+
+[Stack Frame 0] Inside SavageHook: 00007FFAFF87A912; Client Rebase: 00000003232FA912
+[Stack Frame 1] Inside UnhandledExceptionFilter: 00007FFB6C38CA1C; Client Rebase: 000000038FE0CA1C
+[Stack Frame 2] Inside memcpy: 00007FFB6EFF9ABD; Client Rebase: 0000000392A79ABD
+[Stack Frame 3] Inside _C_specific_handler: 00007FFB6EFDF7C7; Client Rebase: 0000000392A5F7C7
+[Stack Frame 4] Inside _chkstk: 00007FFB6EFF543F; Client Rebase: 0000000392A7543F
+[Stack Frame 5] Inside RtlFindCharInUnicodeString: 00007FFB6EF6E886; Client Rebase: 00000003929EE886
+[Stack Frame 6] Inside KiUserExceptionDispatcher: 00007FFB6EFF443E; Client Rebase: 0000000392A7443E
+[Stack Frame 7] Inside SavageHook: 00007FFAFF87B1EC; Client Rebase: 00000003232FB1EC
+[Stack Frame 8] Inside SavageHook: 00007FFAFF87B93B; Client Rebase: 00000003232FB93B
+[Stack Frame 9] Inside recalloc: 00007FFB6C779333; Client Rebase: 00000003901F9333
+[Stack Frame 10] Inside BaseThreadInitThunk: 00007FFB6D9C259D; Client Rebase: 000000039144259D
+[Stack Frame 11] Inside RtlUserThreadStart: 00007FFB6EFAAF38; Client Rebase: 0000000392A2AF38
